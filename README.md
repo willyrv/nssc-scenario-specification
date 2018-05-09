@@ -39,19 +39,19 @@ Each block begins with a line containing
 # Time
 ```
 
-followed by a line with a floating point value. Then there is a white line followed by the line:
+followed by a line with a numeric value. Then there is a white line followed by the line:
 
 ```
 # Deme sizes
 ```
 
-The next line is a vector of floats, each separated by a single space. The next line is:
+The next line is a vector of numeric values separated by a single space. The next line is:
 
 ```
 # Migration matrix
 ```
 
-followed by some lines of vectors of floats.
+followed by some lines of vectors of numeric values.
 
 The block ends with a white line.
  
