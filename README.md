@@ -63,7 +63,7 @@ Following is the grammar description for a scenario file in Backus-Naur form. Th
           <scenario> ::= <scenario-component> 
                        | <scenario>
 
-<scenario-component> ::= "# Time" <LB> <expression> <LB> <LB>
+<scenario-component> ::= "# Time" <LB> <float> <LB> <LB>
                          "# Sizes" <LB> <vector-literal> <LB> <LB>
                          "# Migration Matrix" <LB> <matrix-literal> <LB> <LB>
 
