@@ -61,7 +61,7 @@ Following is the grammar description for a scenario file in Backus-Naur form. Th
 
 ```bash
           <scenario> ::= <scenario-component> 
-                       | <scenario>
+                       | <scenario-component> <scenario>
 
 <scenario-component> ::= "# Time" <LB> <float> <LB> <LB>
                          "# Sizes" <LB> <vector-literal> <LB> <LB>
